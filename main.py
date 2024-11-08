@@ -1,6 +1,4 @@
 import os
-# change the default cache dir so that huggingface won't take the cse space.
-os.environ['TRANSFORMERS_CACHE'] = '/mnt/nvme1n1/zeren/HuggingfaceCache/'
 
 from utils import save_args
 from trainer import MultiHeadTrainer
