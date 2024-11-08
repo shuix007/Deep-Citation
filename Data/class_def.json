@@ -1,0 +1,23 @@
+{
+    "acl": 
+        {
+            "BACKGROUND": "The citation provides relevant information for the domain that the present paper discusses.",
+            "MOTIVATION": "The citation illustrates the need for data, goals, methods, etc that is proposed in the present paper.",
+            "USES": "The present paper uses data, methods, etc., from the paper associated with the citation.",
+            "EXTENDS": "The present paper extends the data, methods, etc. from the paper associated with the citation.",
+            "COMPAREORCONTRAST": "The present paper expresses similarity / differences to the citation.",
+            "FUTURE": "The citation is a potential avenue for future work of the present paper."
+        },
+    "kim":
+        {
+            "Used": "The present paper uses at least one method that is proposed in the paper associated with the citation.",
+            "Not used": "The present paper does not use or extend any methods that is proposed in the paper associated with the citation.",
+            "Extended": "The present paper uses an extended / modified version of the method proposed in the paper associated with the citation."
+        },
+    "scicite":
+        {
+            "Background": "The citation states, mentions, or points to the background information giving more context about a problem, concept, approach, topic, or importance of the problem that is discussed in the present paper.",
+            "Method": "The present paper uses a method, tool, approach or dataset that is proposed in the paper associated with the citation.",
+            "Result": "The present paper compares its results/findings with the results/findings of the paper associated with the citation."
+        }
+}

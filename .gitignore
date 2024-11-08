@@ -1,0 +1,8 @@
+**/.vscode/
+**/__pycache__/
+**/Workspace/
+*.txt
+*.csv
+*.png
+*.err
+*.out
