@@ -3,7 +3,7 @@ Code and experiments accompanying our paper **[Fine-Tuning Language Models on Mu
 
 ## Requirement
 
-Our code depends are developed using PyTorch. Please see KimNLP.yml for dependencies.
+Our code are developed using PyTorch. Please see ```KimNLP.yml``` for dependencies.
 
 ## How to run
 
