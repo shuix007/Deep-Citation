@@ -19,9 +19,9 @@ To jointly fine-tune a PLM on multiple datasets, run
 python main.py --dataset acl-scicite-kim --lambdas 1-0.1-0.1 --data_dir Data/ --workspace Workspace/wksp --lm scibert
 ```
 
-where datasets and the corresponding lambda values are concatenated using "-". The first dataset is the primary one while the others are the auxiliary dataset. Validation and Test F1 are evaluated on the primary dataset.
+where datasets and the corresponding lambda values are concatenated using "-". The first dataset is the primary one while the others are the auxiliary datasets. Validation and Test F1 are evaluated on the primary dataset.
 
-To compute the value of lambda, run
+To compute the value of lambda using our TRL method, run
 
 ```
 python trl.py --primary_dataset acl --auxiliary_dataset scicite --lm scibert --workspace Workspace/trl_wksp
